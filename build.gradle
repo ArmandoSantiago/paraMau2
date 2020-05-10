@@ -48,6 +48,12 @@ dependencies {
     compile "org.grails.plugins:views-json-templates"
     console "org.grails:grails-console"
     profile "org.grails.profiles:rest-api"
+    // Start external dependencies
+
+    compile 'org.apache.poi:poi:3.9'
+    compile 'org.apache.poi:poi-ooxml:3.9'
+    
+    // end external dependencies
     runtime "com.h2database:h2"
     testCompile "org.grails:grails-plugin-testing"
     testCompile "org.grails.plugins:geb"
